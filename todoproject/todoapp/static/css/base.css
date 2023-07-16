@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(186, 195, 244);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding: 55px;
+}
+
+.todoAppWrapper{
+    max-width: 530px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    box-shadow: 0px 18px 19px -5px #777777;
+    border-radius: 10px;
+}
+
+a{
+    color: #595959;
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(62,206,235,1) 86%);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.taskWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgb(87, 86, 86);
+}
+
+.taskTitle{
+    display: flex;
+    align-items: center;
+}
+
+.taskCompletedIcon{
+    height: 20px;
+    width: 20px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.taskInCompletedIcon{
+    height: 20px;
+    width: 20px;
+    background-color: #595959;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.loginAndLogout{
+    padding: 20px;
+}
+
+.loginAndLogout a{
+    color: lightcoral;
+}
+
+.deleteButton{
+    color: red
+}
+
+/* タスク探索と追加のフォーム */
+.searchWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchInput{
+    height: 24px;
+    outline: none;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px !important;
+}
+
+.searchButton{
+    border: 1px solid lightseagreen;
+    padding: 4px 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.searchButton:hover{
+    background-color: lightseagreen;
+    color: white
+}
+
+.addButton{
+    font-size: 32px;
+    color: aqua;
+}
+
+label{
+    display: block;
+}
+
+input[type="text"],
+textarea{
+    width: 100%;
+}
+
+.accoutWrapper{
+    padding: 10px 20px;
+}
+
+.accoutWrapper p{
+    margin: 0;
+    padding: 0;
+}
